@@ -1,0 +1,36 @@
+{
+  "name": "ref-formatter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ref-formatter",
+  "author": "Thomas Anderson",
+  "keywords": [],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gts clean",
+    "typecheck": "tsc --noEmit",
+    "lint": "gts lint",
+    "fix": "gts fix"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@mui/material": "latest",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "eslint": "^8.47.0",
+    "gatsby": "latest",
+    "gatsby-theme-material-ui": "^5.3.0",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "eslint-plugin-prettier": "^5.0.0",
+    "gts": "^5.0.0",
+    "typescript": "~5.1.6"
+  }
+}
